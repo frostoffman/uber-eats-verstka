@@ -1,0 +1,100 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit
+}
+
+body {
+    font-size: 14px;
+    line-height: 34px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 72px;
+    background: white;
+    box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
+}
+
+.nav-cont {
+    display: flex;
+    justify-content: space-between; 
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+header {
+    flex-direction: column;
+    background-color: #FD739C;
+    color: #ffffff;
+    padding: 100px 0px 0px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+  }
+
+footer {
+    background-color: #262626;
+}
+
+a {
+    color: #FD739C;
+}
+  
+h1,
+h2 {
+    line-height: 140%;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+  }
+
+h2 {font-size: 22px}
+
+
+.but-reg {
+
+}
+
+.but { 
+    height: 40px;
+    border: 1px solid #E0E0E0;
+}
+
+.but-text {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 976px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-1, .col-2, .col-3, .col-4 {
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+
+.col-4 {flex-basis: 8.3333%;}
+.col-4 {flex-basis: 16.6667%;}
+.col-4 {flex-basis: 24.9999%;}
+.col-4 {flex-basis: 33.3333%;}
+
+.card {
+    background: #ffffff;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    text-align: left;
+}
